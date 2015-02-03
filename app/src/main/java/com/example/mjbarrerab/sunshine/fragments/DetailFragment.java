@@ -117,7 +117,7 @@ public class DetailFragment extends Fragment {
         // Fetch and store ShareActionProvider
         mShareActionProvider = (ShareActionProvider) MenuItemCompat.getActionProvider(item);
 
-        //Validate option menu
+
         if(mShareActionProvider != null){
             mShareActionProvider.setShareIntent(createShareForecastIntent());
         }else{
